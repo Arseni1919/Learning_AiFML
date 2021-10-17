@@ -1,4 +1,4 @@
-# LEarning Advances in Financial ML
+# Learning Advances in Financial ML
 
 
 ### Stocks Data:
