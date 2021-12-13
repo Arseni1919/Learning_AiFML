@@ -11,4 +11,5 @@
 ## Credits
 
 - [Advances in Financial Machine Learning](https://www.amazon.com/Advances-Financial-Machine-Learning-Marcos/dp/1119482089)
+- [Website of Marcos López de Prado](https://www.quantresearch.org/)
 - 
