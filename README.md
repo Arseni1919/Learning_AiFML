@@ -6,7 +6,7 @@
 - [Quandl](https://github.com/quandl/quandl-python)
 - [Alpha Vantage]()
 - [Yahoo Finance API](https://www.yahoofinanceapi.com/)
-- [`yfinance`](https://github.com/ranaroussi/yfinance)[(link 2)](https://aroussi.com/post/python-yahoo-finance)
+- `yfinance`: [link 1](https://github.com/ranaroussi/yfinance), [link 2](https://aroussi.com/post/python-yahoo-finance)
 
 ## Credits
 
