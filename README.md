@@ -4,6 +4,7 @@
 
 ### Stocks Data:
 
+- [pandas | Remote Data Access](https://pandas-datareader.readthedocs.io/en/latest/remote_data.html#yahoo-finance-data)
 - [Quandl](https://github.com/quandl/quandl-python)
 - [Alpha Vantage]()
 - [Yahoo Finance API](https://www.yahoofinanceapi.com/)
