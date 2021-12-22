@@ -1,15 +1,10 @@
-import matplotlib.pyplot as plt
-import plotly.express as px
-import pandas as pd
-import numpy as np
-# loading the class data from the package pandas_datareader
-from pandas_datareader import data
+from GLOBALS import *
 
 # GETTING THE DATA
 # First day
-start_date = '2017-01-01'
+start_date = '2014-01-01'
 # Last day
-end_date = '2021-01-01'
+end_date = '2018-01-01'
 # Call the function DataReader from the class data
 goog_data = data.DataReader('GOOG', 'yahoo', start_date, end_date)
 
