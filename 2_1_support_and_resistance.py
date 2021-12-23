@@ -12,6 +12,7 @@ try:
     goog_data2 = pd.read_csv(SRC_DATA_FILENAME)
     print('loaded')
 except FileNotFoundError:
+    print('loading...')
     goog_data2 = data.DataReader('GOOG', 'yahoo', start_date, end_date)
     goog_data2.to_csv(SRC_DATA_FILENAME)
 
