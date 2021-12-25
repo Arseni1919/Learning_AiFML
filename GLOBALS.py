@@ -8,7 +8,9 @@ import math as math
 from statsmodels.graphics.tsaplots import plot_acf
 from statsmodels.graphics.tsaplots import plot_pacf
 from statsmodels.tsa.arima.model import ARIMA
-
+from sklearn.model_selection import train_test_split
+from sklearn import linear_model
+from sklearn.metrics import mean_squared_error, r2_score
 
 # First day
 start_date = '2014-01-01'
