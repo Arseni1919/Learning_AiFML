@@ -36,6 +36,10 @@ def create_train_split_group(X, Y, split_ratio=0.8):
 
 
 goog_data = load_financial_data(start_date='2001-01-01', end_date='2018-01-01', output_file=SRC_DATA_FILENAME)
+
+fig = px.line(goog_data['Close'])
+fig.show()
+
 X, Y = create_regression_trading_condition(goog_data)
 
 pd.plotting.scatter_matrix(goog_data[['Open-Close', 'High-Low', 'Close']], grid=True, diagonal='kde')
